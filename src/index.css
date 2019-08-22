@@ -1,27 +1,30 @@
 @font-face {
-  font-family: "InterBold";
-  src: url("assets/fonts/Inter-Bold.ttf");
+  font-family: 'InterBold';
+  src: url('assets/fonts/Inter-Bold.ttf');
 }
 
 @font-face {
-  font-family: "InterSemiBold";
-  src: url("assets/fonts/Inter-SemiBold.ttf");
+  font-family: 'InterSemiBold';
+  src: url('assets/fonts/Inter-SemiBold.ttf');
 }
 
 @font-face {
-  font-family: "Campground";
-  src: url("assets/fonts/CampgroundFreeDemo-regular.otf") format("opentype");
+  font-family: 'Campground';
+  src: url('assets/fonts/CampgroundFreeDemo-regular.otf') format('opentype');
 }
 
 * {
   user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 html {
   position: fixed;
   height: 100vh;
   width: 100vw;
-  background: linear-gradient(-0.125turn, rgb(180, 91, 85), #F29892);
+  background: linear-gradient(-0.125turn, rgb(180, 91, 85), #f29892);
   background-attachment: fixed;
 }
 
@@ -48,6 +51,9 @@ img {
   width: 100vw;
   z-index: -100;
   user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 .topright {
