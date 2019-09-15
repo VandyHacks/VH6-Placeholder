@@ -142,7 +142,7 @@ img {
 .updates:active,
 .updates:focus {
   outline: none;
-  background-color: hsl(17, 77%, 90%);
+  background-color: hsl(265, 100%, 95%);
 }
 
 input::placeholder {
