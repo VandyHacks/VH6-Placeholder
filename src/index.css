@@ -15,6 +15,9 @@
 
 * {
   user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 html {
@@ -48,6 +51,9 @@ img {
   width: 100vw;
   z-index: -100;
   user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 .topright {
@@ -126,7 +132,7 @@ img {
   min-width: 150px;
   line-height: 40px;
   background-color: hsl(265, 100%, 90%) /* e1cbff */;
-  padding: 0 1.75em 0 1em;
+  padding: 2px 1.75em 0 1em;
   transition: all 0.25s;
   font-size: 15.88px;
   font-weight: 500;
@@ -201,9 +207,6 @@ input::placeholder {
 @media screen and (max-width: 750px) {
   .vhname {
     width: 80vw;
-  }
-  .art {
-    text-align: center;
   }
 }
 
