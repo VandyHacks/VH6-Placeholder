@@ -21,7 +21,7 @@ html {
   position: fixed;
   height: 100vh;
   width: 100vw;
-  background: linear-gradient(-0.125turn, rgb(180, 91, 85), #F29892);
+  background: linear-gradient(-0.125turn, #a384c1, #c7ebf7);
   background-attachment: fixed;
 }
 
@@ -125,8 +125,8 @@ img {
   width: 60%;
   min-width: 150px;
   line-height: 40px;
-  background-color: hsl(17, 77%, 79%);
-  padding: 2px 1.75em 0 1em;
+  background-color: hsl(265, 100%, 90%) /* e1cbff */;
+  padding: 0 1.75em 0 1em;
   transition: all 0.25s;
   font-size: 15.88px;
   font-weight: 500;
@@ -201,6 +201,9 @@ input::placeholder {
 @media screen and (max-width: 750px) {
   .vhname {
     width: 80vw;
+  }
+  .art {
+    text-align: center;
   }
 }
 
